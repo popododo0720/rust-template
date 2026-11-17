@@ -1,0 +1,12 @@
+[package]
+name = "{{project-name}}"
+version = "0.1.0"
+edition = "2024"
+
+[lints.rust]
+missing_docs = "warn"
+
+[lints.clippy]
+unwrap_used = "warn"
+
+[dependencies]
